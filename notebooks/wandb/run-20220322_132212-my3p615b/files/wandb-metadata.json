@@ -1,0 +1,26 @@
+{
+    "os": "Linux-5.13.0-35-generic-x86_64-with-glibc2.17",
+    "python": "3.8.12",
+    "heartbeatAt": "2022-03-22T06:22:16.196049",
+    "startedAt": "2022-03-22T06:22:12.064954",
+    "docker": null,
+    "gpu": "NVIDIA GeForce RTX 3090",
+    "gpu_count": 1,
+    "cpu_count": 20,
+    "cuda": null,
+    "args": [
+        "-f",
+        "/home/trungngo/.local/share/jupyter/runtime/kernel-b349c757-0e1c-4aad-ba21-c3445e63b247.json"
+    ],
+    "state": "running",
+    "program": "notebooks/EDA.ipynb",
+    "root": "/home/trungngo/Desktop/kaggle-happywhale-2022",
+    "git": {
+        "remote": "git@github.com:trungnq0202/kaggle-happywhale-2022.git",
+        "commit": "839267c928236994c2ef5337ddda4a6dc301def0"
+    },
+    "email": "s3742774@rmit.edu.vn",
+    "host": "trungngo",
+    "username": "trungngo",
+    "executable": "/home/trungngo/anaconda3/envs/kaggle-happywhale/bin/python3"
+}

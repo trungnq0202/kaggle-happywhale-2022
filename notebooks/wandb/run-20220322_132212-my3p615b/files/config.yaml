@@ -1,0 +1,51 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.11
+    framework: torch
+    is_jupyter_run: true
+    is_kaggle_kernel: false
+    python_version: 3.8.12
+    start_time: 1647930132
+    t:
+      1:
+      - 1
+      - 41
+      2:
+      - 1
+      - 41
+      3:
+      - 2
+      - 3
+      - 16
+      4: 3.8.12
+      5: 0.12.11
+      8:
+      - 1
+      - 5
+_wandb_kernel:
+  desc: null
+  value: trungngo
+base_path:
+  desc: null
+  value: ../data/happy-whale-and-dolphin
+ckpt_path:
+  desc: null
+  value: ../data/arcface-gem-dataset/Loss15.2453_epoch3.bin
+competition:
+  desc: null
+  value: happywhale
+device:
+  desc: null
+  value: cuda:0
+embed_path:
+  desc: null
+  value: ../data/embedding-dataset
+num_samples:
+  desc: null
+  value: null
+seed:
+  desc: null
+  value: 42
