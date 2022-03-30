@@ -9,12 +9,16 @@ dependencies:
   - _libgcc_mutex=0.1=conda_forge
   - _openmp_mutex=4.5=1_llvm
   - abseil-cpp=20210324.2=h9c3ff4c_0
+  - absl-py=1.0.0=pyhd8ed1ab_0
+  - aiohttp=3.8.1=py38h497a2fe_0
+  - aiosignal=1.2.0=pyhd8ed1ab_0
   - alsa-lib=1.2.3=h516909a_0
   - argon2-cffi=21.3.0=pyhd3eb1b0_0
   - argon2-cffi-bindings=21.2.0=py38h7f8727e_0
   - arrow-cpp=5.0.0=py38hdc1b314_6_cuda
   - arrow-cpp-proc=3.0.0=cuda
   - asttokens=2.0.5=pyhd3eb1b0_0
+  - async-timeout=4.0.2=pyhd8ed1ab_0
   - attrs=21.4.0=pyhd3eb1b0_0
   - aws-c-cal=0.5.11=h95a6274_0
   - aws-c-common=0.6.2=h7f98852_0
@@ -27,6 +31,7 @@ dependencies:
   - binutils_linux-64=2.35.1=h454624a_30
   - blas=1.0=mkl
   - bleach=4.1.0=pyhd3eb1b0_0
+  - blinker=1.4=py_1
   - bokeh=2.4.2=py38h578d9bd_0
   - bottleneck=1.3.2=py38heb32a55_1
   - brotli=1.0.9=he6710b0_2
@@ -73,6 +78,7 @@ dependencies:
   - fontconfig=2.13.1=h6c09931_0
   - fonttools=4.25.0=pyhd3eb1b0_0
   - freetype=2.11.0=h70c0345_0
+  - frozenlist=1.3.0=py38h497a2fe_0
   - fsspec=2022.2.0=pyhd8ed1ab_0
   - future=0.18.2=py38_1
   - gcc_impl_linux-64=9.3.0=h6df7d76_17
@@ -87,8 +93,11 @@ dependencies:
   - glog=0.5.0=h48cff8f_0
   - gmp=6.2.1=h2531618_2
   - gnutls=3.6.15=he1e5248_0
+  - google-auth=2.6.2=pyh6c4a22f_0
+  - google-auth-oauthlib=0.4.6=pyhd8ed1ab_0
   - graphite2=1.3.14=h23475e2_0
   - grpc-cpp=1.40.0=h850795e_0
+  - grpcio=1.42.0=py38hce63b2e_0
   - gst-plugins-base=1.18.4=hf529b03_2
   - gstreamer=1.18.4=h76c114f_2
   - gxx_impl_linux-64=9.3.0=hbdd7822_17
@@ -180,6 +189,7 @@ dependencies:
   - locket=0.2.0=py_2
   - lz4-c=1.9.3=h295c915_1
   - magma=2.5.4=h6103c52_2
+  - markdown=3.3.6=pyhd8ed1ab_0
   - markupsafe=2.0.1=py38h27cfd23_0
   - matplotlib=3.4.3=py38h06a4308_0
   - matplotlib-base=3.4.3=py38hbbc1b5f_0
@@ -190,6 +200,7 @@ dependencies:
   - mkl_fft=1.3.1=py38hd3c417c_0
   - mkl_random=1.2.2=py38h51133e4_0
   - msgpack-python=1.0.3=py38h1fd1430_0
+  - multidict=6.0.2=py38h497a2fe_0
   - munkres=1.1.4=py_0
   - mysql-common=8.0.25=ha770c72_2
   - mysql-libs=8.0.25=hfa10184_2
@@ -209,9 +220,10 @@ dependencies:
   - numpy=1.21.2=py38h20f2e39_0
   - numpy-base=1.21.2=py38h79a1101_0
   - nvtx=0.2.3=py38h497a2fe_1
+  - oauthlib=3.2.0=pyhd8ed1ab_0
   - opencv=4.4.0=py38_2
   - openh264=2.1.1=h4ff587b_0
-  - openssl=1.1.1l=h7f98852_0
+  - openssl=1.1.1n=h166bdaf_0
   - orc=1.6.10=h58a87f1_0
   - packaging=21.3=pyhd3eb1b0_0
   - pandas=1.3.5=py38h43a58ef_0
@@ -237,8 +249,11 @@ dependencies:
   - pure_eval=0.2.2=pyhd3eb1b0_0
   - py-opencv=4.4.0=py38h23f93f0_2
   - pyarrow=5.0.0=py38hed47224_6_cuda
+  - pyasn1=0.4.8=py_0
+  - pyasn1-modules=0.2.7=py_0
   - pycparser=2.21=pyhd3eb1b0_0
   - pygments=2.11.2=pyhd3eb1b0_0
+  - pyjwt=2.3.0=pyhd8ed1ab_1
   - pyopenssl=22.0.0=pyhd8ed1ab_0
   - pyparsing=3.0.4=pyhd3eb1b0_0
   - pyqt=5.12.3=py38h578d9bd_7
@@ -254,13 +269,16 @@ dependencies:
   - pytorch=1.9.0=cuda112py38h3d13190_1
   - pytorch-gpu=1.9.0=cuda112py38h0bbbad9_1
   - pytz=2021.3=pyhd3eb1b0_0
+  - pyu2f=0.1.5=pyhd8ed1ab_0
   - pyyaml=5.4.1=py38h497a2fe_0
   - pyzmq=22.3.0=py38h295c915_2
   - qt=5.12.9=hda022c4_4
   - re2=2021.09.01=h9c3ff4c_0
   - readline=8.1.2=h7f8727e_1
   - requests=2.27.1=pyhd8ed1ab_0
+  - requests-oauthlib=1.3.1=pyhd8ed1ab_0
   - rmm=22.02.00=cuda11_py38_ge3e3215_0_has_cma
+  - rsa=4.8=pyhd8ed1ab_0
   - s2n=1.0.10=h9b69904_0
   - scipy=1.5.3=py38h828c644_0
   - send2trash=1.8.0=pyhd3eb1b0_1
@@ -279,6 +297,9 @@ dependencies:
   - sysroot_linux-64=2.12=he073ed8_15
   - tblib=1.7.0=pyhd8ed1ab_0
   - tenacity=8.0.1=py38h06a4308_0
+  - tensorboard=2.8.0=pyhd8ed1ab_1
+  - tensorboard-data-server=0.6.0=py38h3e25421_1
+  - tensorboard-plugin-wit=1.8.1=pyhd8ed1ab_0
   - termcolor=1.1.0=py_2
   - terminado=0.13.1=py38h06a4308_0
   - testpath=0.5.0=pyhd3eb1b0_0
@@ -300,10 +321,12 @@ dependencies:
   - wandb=0.12.11=pyhd8ed1ab_0
   - wcwidth=0.2.5=pyhd3eb1b0_0
   - webencodings=0.5.1=py38_1
+  - werkzeug=2.0.3=pyhd8ed1ab_1
   - wheel=0.37.1=pyhd3eb1b0_0
   - widgetsnbextension=3.6.0=py38h578d9bd_0
   - xz=5.2.5=h7b6447c_0
   - yaml=0.2.5=h516909a_0
+  - yarl=1.7.2=py38h497a2fe_1
   - yaspin=2.1.0=pyhd8ed1ab_0
   - zeromq=4.3.4=h2531618_0
   - zict=2.1.0=pyhd8ed1ab_0
@@ -311,5 +334,21 @@ dependencies:
   - zlib=1.2.11=h7f8727e_4
   - zstd=1.5.0=ha95c52a_0
   - pip:
+    - albumentations==1.1.0
+    - imageio==2.16.1
+    - jsonpatch==1.32
+    - jsonpointer==2.2
+    - networkx==2.7.1
+    - opencv-python-headless==4.5.5.64
+    - pywavelets==1.3.0
+    - qudida==0.0.4
+    - scikit-image==0.19.2
+    - scikit-learn==1.0.2
+    - threadpoolctl==3.1.0
+    - tifffile==2022.3.25
+    - torchfile==0.1.0
+    - torchnet==0.0.4
     - treelite-runtime==2.2.1
+    - visdom==0.1.8.9
+    - websocket-client==1.3.1
 prefix: /home/trungngo/anaconda3/envs/kaggle-happywhale
