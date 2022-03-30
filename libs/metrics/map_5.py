@@ -6,6 +6,7 @@ class MAP5():
         self.reset()
 
     def calculate(self, output, target):
+        map_subset = []
         for (prediction, label) in zip(output, target):
             map_per_img = 0.0
             try:
@@ -13,11 +14,12 @@ class MAP5():
             except:
                 map_per_img = 0.0
 
-            self.map_all_set.append(map_per_img)
+            map_subset.append(map_per_img)
+        return map_subset
 
     def update(self, value):
-        raise NotImplementedError
-
+        self.map_all_set = self.map_all_set + value
+        
     def reset(self):
         self.map_all_set = []
 
