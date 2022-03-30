@@ -88,10 +88,11 @@ class HappyWhaleDataset(data.Dataset):
         if self.transforms:
             img = self.transforms(image=img)['image']
 
-        return {
-            'image': img,
-            'label': torch.tensor(label, dtype=torch.long)
-        }
+        return img, label
+        # return {
+        #     'image': img,
+        #     'label': torch.tensor(label, dtype=torch.long)
+        # }
 
 if __name__ == '__main__':
     train_dataset = HappyWhaleDataset(
